@@ -115,8 +115,11 @@ header {
     box-sizing: border-box;
     background: url(images/background.jpg) no-repeat top center;
     background-position-y: 70px;
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 1080px;
     background-size: cover;
-    height: 100vh;
     display: flex;
     margin-top: 60px;
     font-family: 'amazonemberlight', arial;
@@ -126,6 +129,34 @@ header {
   padding-left: 70px;
 }
 
+.container-texto {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+}
+
+#traco-esquerda{
+  margin-top: -20px;
+  border: 1px solid white;
+  width: 120px;
+}
+
+#ou{
+  margin-top: -20px;
+  margin-left: 130px;
+  font-family: 'amazonemberlight', arial;
+  align-items: center;
+  margin-top: -12px;
+}
+
+#traco-direita{
+  border: 1px solid white;
+  width: 120px;
+  margin-left: 156px;
+  margin-top: -10px;
+}
+
 h1 {
   font-size: 40px;
   line-height: 48px;
@@ -133,27 +164,31 @@ h1 {
   font-style: normal;
   font-weight: 700;
   margin-bottom: 30px;
-  margin-top: 60px;
+  margin-top: 100px;
+  margin-left: 30px;
   cursor: default;
 }
 
 .legenda p {
   font-size: 21px;
+  margin-left: 30px;
   line-height: 1.3;
   color: #ffffff;
   font-style: normal;
   font-weight: 400;
-  max-width: 530px;
+  max-width: 760px;
   min-width: 300px;
   text-align: left;
   padding-right: 10px;
   cursor: default;
+  margin-bottom: 50px;
 }
 
 .login-teste {
   width: 300px;
   max-width: 100%;
   color: white;
+  margin-left: 30px;
 }
 
 .login-teste a {
@@ -162,7 +197,7 @@ h1 {
   background-image: linear-gradient(to top, #0f79af, #0f79af);
   font-size: 17px;
   display: block;
-  margin-top: 48px;
+  margin-top: 20px;
   margin-bottom: 40px;
   border-radius: 2px;
   font-weight: 700;
@@ -181,9 +216,10 @@ p {
   line-height: 20px;
   font-weight: 400;
   cursor: default;
+  margin-left: 30px;
 }
 
-@media (max-width: 1366px){
+@media screen and (max-width: 1366px){
   .exp {
     background-color: rgb(19, 153, 222);
     font-size: 18px;
@@ -233,5 +269,175 @@ p {
     margin-top: -24px;
     display: flex;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 1600px){
+  .exp {
+    background-color: rgb(19, 153, 222);
+    font-size: 18px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-right: 10px;
+    background-image: linear-gradient(to top, #0f79af, #0f79af);
+    text-align: center;
+    max-width: 100%;
+    text-decoration: none;
+    width: 180px;
+    height: 35px;
+    margin-left: 1130px;
+    margin-top: -30px;
+    display: flex;
+    font-family: 'amazonemberlight', arial;
+    align-items: center;
+  }
+  
+  .busca {
+    margin-left: 1360px;
+    margin-top: -26px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .globo {
+    margin-left: 1400px;
+    margin-top: -21px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .idioma {
+    margin-left: 1430px;
+    margin-top: -22px;
+    display: flex;
+    font-size: 16px;
+    font-family: 'amazonemberlight', arial;
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    align-items: center;
+  }
+  
+  .user {
+    margin-left: 1490px;
+    margin-top: -24px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1440px){
+  .exp {
+    background-color: rgb(19, 153, 222);
+    font-size: 18px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-right: 10px;
+    background-image: linear-gradient(to top, #0f79af, #0f79af);
+    text-align: center;
+    max-width: 100%;
+    text-decoration: none;
+    width: 180px;
+    height: 35px;
+    margin-left: 1000px;
+    margin-top: -30px;
+    display: flex;
+    font-family: 'amazonemberlight', arial;
+    align-items: center;
+  }
+  
+  .busca {
+    margin-left: 1240px;
+    margin-top: -26px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .globo {
+    margin-left: 1280px;
+    margin-top: -21px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .idioma {
+    margin-left: 1310px;
+    margin-top: -22px;
+    display: flex;
+    font-size: 16px;
+    font-family: 'amazonemberlight', arial;
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    align-items: center;
+  }
+  
+  .user {
+    margin-left: 1360px;
+    margin-top: -24px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px){
+
+  body{
+    background: url(images/background-pq.jpg) no-repeat top center;
+    background-position: center top;
+    display: flex;
+    font-family: 'amazonemberlight', arial;
+    background-position-x: -310px;
+    background-position-y: 50px;
+  }
+
+  .logo {
+    padding-left: 10px;
+    margin-top: 8px;
+  }
+
+  .menu {
+    height: 60px;
+  }
+
+  .menu-items{
+    display: none;
+  }
+  
+  .content {
+    padding-left: 50px;
+  }
+  
+  .login-teste {
+    width: 300px;
+    max-width: 100%;
+    color: white;
+    box-align: center;
+  }
+  
+  .login-teste a {
+    padding: 16px 5px;
+    background-color: #0f79af;
+    background-image: linear-gradient(to top, #0f79af, #0f79af);
+    font-size: 17px;
+    display:block;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    border-radius: 2px;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    max-width: 250px;
+    margin-left: -25px;
+  }
+
+  h1 {
+    font-size: 30px;
+   
+  }
+
+  .dias{
+    display: none;
   }
 }
