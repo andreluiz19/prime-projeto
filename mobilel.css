@@ -17,8 +17,7 @@ header {
   font-size: 17px;
   font-weight: 400;
   line-height: 24px;
-  height: 80px;
-  margin: auto;
+  height: 60px;
   align-items: center;
   background-image: linear-gradient(to top, #1b2835, #1f3042);
   position: fixed;
@@ -27,12 +26,14 @@ header {
   width: 100%;
 }
 
+.menu-items{
+  width: 0%;
+}
+
 .logo {
   display: flex;
   vertical-align: middle;
-  padding-top: 6px;
-  padding-left: 46px;
-  margin-top: 10px;
+  margin-left: -35px;
 }
 
 .logo img {
@@ -46,8 +47,8 @@ header {
 .menu-items {
   padding: 0 30px;
   display: flex;
-  margin-left: 150px;
-  margin-top: -30px;
+  margin-left: 1500px;
+  margin-top: -37px;
 }
 
 .menu-items a {
@@ -80,14 +81,14 @@ header {
 }
 
 .busca {
-  margin-left: 1680px;
-  margin-top: -30px;
+  margin-left: 318px;
+  margin-top: -50px;
   display: flex;
   align-items: center;
 }
 
 .globo {
-  margin-left: 1920px;
+  margin-left: 1720px;
   margin-top: -21px;
   display: flex;
   align-items: center;
@@ -105,8 +106,8 @@ header {
 }
 
 .user {
-  margin-left: 1800px;
-  margin-top: -22px;
+  margin-left: 358px;
+  margin-top: -25px;
   display: flex;
   align-items: center;
 }
@@ -114,9 +115,12 @@ header {
 /* Showcase */
   body {
     box-sizing: border-box;
-    background: url(images/background.jpg) no-repeat top center;
-    background-position-y: 70px;
-    background-size: cover;
+    
+    background: url(images/background-mobilem.jpg) no-repeat top center;
+    background-size: contain;
+    background-color: black;
+    background-position-x: -20px;
+    background-position-y: 50px;
     height: 100vh;
     display: flex;
     margin-top: 60px;
@@ -124,42 +128,43 @@ header {
   }
 
 .content {
-  padding-left: 70px;
+  padding-left: 0px;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 28px;
   line-height: 48px;
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
-  margin-top: 60px;
+  margin-top: 65px;
   cursor: default;
+  margin-right: 30px;
+  text-align: center;
 }
 
 .legenda p {
-  font-size: 21px;
-  line-height: 1.3;
+  font-size: 13px;
+  line-height: 22px;
   color: #ffffff;
   font-style: normal;
   font-weight: 400;
-  max-width: 530px;
-  min-width: 300px;
-  text-align: left;
+  text-align: center;
   padding-right: 10px;
   cursor: default;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 25px;
 }
 
 .login-teste {
-  width: 300px;
+  width: 280px;
   max-width: 100%;
   color: white;
 }
 
 .login-teste a {
-  padding: 16px 5px;
+  padding-top: 16px;
   background-color: #0f79af;
   background-image: linear-gradient(to top, #0f79af, #0f79af);
   font-size: 17px;
@@ -171,7 +176,8 @@ h1 {
   color: white;
   text-align: center;
   text-decoration: none;
-  max-width: 280px;
+  max-width: 250px;
+  margin-left: 65px;
 }
 
 #ou{
@@ -186,7 +192,9 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 290px;
+  max-width: 250px;
+  width: 100%;
+  margin-left:70px;
 }
 
 #traco-esquerda{
@@ -202,9 +210,12 @@ h1 {
 p {
   color: white;
   font-style: normal;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 20px;
   font-weight: 400;
   margin-top: 40px;
   cursor: default;
+  text-align: center;
+  margin-right: 15px;
 }
+
