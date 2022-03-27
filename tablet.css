@@ -220,11 +220,3 @@ p {
   margin-left: 40px;
   width: 300px;
 }
-
-#freetest{
-  min-width: none;  
-}
-
-.last{
-  padding-left: none;
-}

@@ -29,8 +29,8 @@ header {
 .logo {
     display: flex;
     vertical-align: middle;
-    margin-left: 35px;
-    margin-top: 25px;
+    margin-left: -8px;
+    margin-top: 20px;
 }
   
 .logo img {
