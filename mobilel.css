@@ -115,11 +115,10 @@ header {
 /* Showcase */
   body {
     box-sizing: border-box;
-    
     background: url(images/background-mobilem.jpg) no-repeat top center;
     background-size: contain;
     background-color: black;
-    background-position-x: -20px;
+    background-position-x: 0px;
     background-position-y: 50px;
     height: 100vh;
     display: flex;
