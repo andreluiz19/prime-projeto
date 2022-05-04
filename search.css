@@ -72,7 +72,6 @@ header {
 
 input{
   margin-top: 150px;
-  /* margin-left: 260px; */
   width: 100%;
   max-width: 700px;
   border-radius: 60px;
@@ -137,8 +136,30 @@ button{
   width: 220px;
   word-wrap: break-word;
   text-align: center;
+  display: inline;
 }
 
+.summary{
+  width: 220px;
+  height: 80px;
+  word-wrap: break-word;
+  text-align: center;
+  display: none;
+  text-overflow: "…";
+  overflow: hidden;
+  font-size: 10px;
+}
+
+/* .card .genres:hover{
+  display: none;
+}  */
+
 .card li:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
+}
+.card li:hover .genres{
+  display: none;
+}
+.card li:hover .summary{
+  display: inline;
 }
